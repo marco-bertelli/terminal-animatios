@@ -1,0 +1,28 @@
+{
+  "name": "terminal-animatios",
+  "version": "1.0.0",
+  "description": "terminal-animated animations with node js streams",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-bertelli/terminal-animatios.git"
+  },
+  "keywords": [
+    "terminal",
+    "node",
+    "animations"
+  ],
+  "author": "Marco Bertelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco-bertelli/terminal-animatios/issues"
+  },
+  "homepage": "https://github.com/marco-bertelli/terminal-animatios#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
