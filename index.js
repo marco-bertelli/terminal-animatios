@@ -4,7 +4,7 @@ import { Readable } from 'stream';
 import colors from 'colors';
 import http from 'http';
 
-const { original } = await loadFrames();
+const { original } = loadFrames();
 
 const streamer = (stream) => {
     let index = 0;

@@ -3,14 +3,14 @@ import fs from 'fs';
 
 const framesPath = 'frames';
 
-export async function loadFrames() {
+export function loadFrames() {
     const files = fs.readdirSync(framesPath);
 
-    const mappedFrames = await Promise.all(files.map((file) => {
+    const mappedFrames = files.map((file) => {
         const frame = fs.readFileSync(path.join(framesPath, file));
 
         return frame.toString();
-    }));
+    });
 
     const flipped = mappedFrames.map(f => {
         return f
